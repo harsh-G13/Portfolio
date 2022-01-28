@@ -12,7 +12,7 @@ function typingEffect() {
 			deletingEffect();
 			return false;
 		};
-		timer = setTimeout(loopTyping, 100);
+		timer = setTimeout(loopTyping, 150);
 	};
 	loopTyping();
 };
